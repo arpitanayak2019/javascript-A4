@@ -17,16 +17,27 @@
 // Question 2-
 // Tina is given a string S which contains the letter of all the student names in her class .she got a curiosity to check how many people have their names starting from the same alphabet .so given a string S ,she decided to write a code that finds out the count of characters that occur more than once in the string.
 //solution -
-// let tina = "namesofallthestudentsoftheclass";
-// let count = 0;
-// for(let j = 0; j < tina.length; j++){
-// for(let k = 0; k < tina.length; k++){
-// if(tina[j] === tina[k]){
-//    count++;
+function countHead(S) {
+//     let charCount = {};
+//     let repeatedCount = 0;
+
+//     for (let char of S) {
+//         if (charCount[char]) {
+//             charCount[char]++;
+//         } else {
+//             charCount[char] = 1;
+//         }
+//     }
+//     for (let char in charCount) {
+//         if (charCount[char] > 1) {
+//             repeatedCount++;
+//         }
+//     }
+
+//     return repeatedCount;
 // }
-// }
-// }
-// console.log(count);
+// var S = "AABCCDD";
+// console.log(countHead(S)); 
 
 //Question 3 -
 //count the vowels 
